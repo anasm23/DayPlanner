@@ -1,11 +1,11 @@
 // Declare moment variable
 const m = moment;
+
 //Times
 var block = moment().format("HH");
 console.log(block);
-//
-//
-//
+
+
 // Function to store plans
 function functPlanner() {
    //display current day at top of page
@@ -20,12 +20,16 @@ function functPlanner() {
    });
 }
 functPlanner();
+
+
 //save button function
 var saveBtn = $(".saveBtn");
+
 saveBtn.on("click", function () {
    var time = $(this).parent().attr("id");
    var schedule = $(this).siblings(".schedule").val();
- 
+
+    alert ("Saved!")
    localStorage.setItem(time, schedule);
 });
  
@@ -52,4 +56,5 @@ background();
 //clear all local storage
 function clearLocalStorage(){
    window.localStorage.clear();
+   alert ("cleared!");
 }
