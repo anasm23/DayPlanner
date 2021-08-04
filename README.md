@@ -1,5 +1,5 @@
 # DayPlanner
-LINK TO DEPLOYED SITE: https://sleepy-beach-39435.herokuapp.com/
+LINK TO DEPLOYED SITE: https://anasm23.github.io/WorkDayPlanner/
 
 ## Instructions:
 WorkDayPlanner is a simple calendar application with functionality to create and save events for each hour of the day. App runs in the browser and dynamically updates with JQuery. Additionally, Moment.js library is incorporated to update and read the date and time.
