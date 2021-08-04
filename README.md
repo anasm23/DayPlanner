@@ -6,7 +6,7 @@ WorkDayPlanner is a simple calendar application with functionality to create and
 
 
 ## Screenshot
-![day planner demo](./assets/DayplannerSS.png)
+![day planner demo](./assets/Work Day Scheduler.gif)
 
 ## Build Tools
 * HTML
